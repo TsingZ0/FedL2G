@@ -1,6 +1,6 @@
 # Introduction
 
-This is the implementation of our paper. 
+This is the implementation of our paper: [FedL2G: Learning to Guide Local Training in Heterogeneous Federated Learning](). 
 
 
 # Datasets and Baselines
