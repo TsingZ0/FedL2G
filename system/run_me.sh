@@ -1,2 +1,2 @@
-nohup python -u main.py -t 3 -ab 1 -lr 0.01 -jr 1 -lbs 10 -ls 1 -nc 20 -nb 100 -data Cifar100-0.1 -m HtFE8 -fd 512 -did 0 -algo FedL2G-feat -slr 1e2 > total-Cifar100-0.1-HtFE8-fd=512-FedFedL2G-feat.out 2>&1 &
-nohup python -u main.py -t 3 -ab 1 -lr 0.01 -jr 1 -lbs 10 -ls 1 -nc 20 -nb 100 -data Cifar100-0.1 -m HtFE8 -fd 512 -did 1 -algo FedL2G-logit -slr 0.1 > total-Cifar100-0.1-HtFE8-fd=512-FedFedL2G-logit.out 2>&1 &
+nohup python -u main.py -t 3 -ab 1 -lr 0.01 -jr 1 -lbs 10 -ls 1 -nc 20 -nb 100 -data Cifar100-0.1 -m HtFE8 -fd 512 -did 0 -algo FedL2G-feat -slr 1e2 > total-Cifar100-0.1-HtFE8-fd=512-FedL2G-feat.out 2>&1 &
+nohup python -u main.py -t 3 -ab 1 -lr 0.01 -jr 1 -lbs 10 -ls 1 -nc 20 -nb 100 -data Cifar100-0.1 -m HtFE8 -fd 512 -did 1 -algo FedL2G-logit -slr 0.1 > total-Cifar100-0.1-HtFE8-fd=512-FedL2G-logit.out 2>&1 &
