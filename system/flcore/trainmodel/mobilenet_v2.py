@@ -161,7 +161,7 @@ class MobileNetV2(nn.Module):
         # (this one) needs to have a name other than `forward` that can be accessed in a subclass
         x = self.features(x)
         # Cannot use "squeeze" as batch-size can be 1 => must use reshape with x.shape[0]
-        x = nn.functional.adaptive_avg_pool2g(x, 1).reshape(x.shape[0], -1)
+        x = nn.functional.adaptive_avg_pool2d(x, 1).reshape(x.shape[0], -1)
         x = self.dropout(x)
         x = self.fc(x)
         return x
